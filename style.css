@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    background: url('https://img.freepik.com/free-photo/dice-yellow-background_127657-13639.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: fit-content;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background: #ffe2e2;
+    width: 900px;
+}
+
+h1{
+    padding: 30px 30px 0px 30px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.input-group{
+    display: flex;
+    justify-content: center;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    padding-top: 20px;
+}
+.player:nth-child(1){
+    padding-right: 100px;
+    border-right: 1px solid #fff7cc;
+}
+.player:nth-child(2){
+    padding-left: 100px;
+    border-left: 1px solid #fff7cc;
+}
+
+.player label{
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.activePlayer{
+    background: #97ffae;
+}
+
+.player input{
+    font-size: 120px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.diceVal{
+    font-size: 50px;
+    font-weight: 200;
+    padding: 30px 0;
+}
+
+.diceVal span{
+    background: #eeff06;
+    box-shadow: 2px 2px 3px #747474;
+    border: 1px solid #9c9c9c;
+    padding-inline: 20px;
+    border-radius: 20px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 3px 3px 2px #747474, -1px 1px 0 #747474, 1px 1px 0 #747474, 1px -1px 0 #747474, -1px -1px 0 #747474;
+    visibility: hidden;
+}
+
+#button-grp {
+    padding-bottom: 30px;
+}
+#button-grp button{
+    font-size: 40px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #ff4141;
+    font-weight: 100;
+    color: white;
+    cursor: pointer;
+}
+
+.result{
+    font-size: 30px;
+    color: #fffb07;
+    font-weight: 900;
+    text-shadow: 3px 3px 2px #747474, -1px 1px 0 #747474, 1px 1px 0 #747474, 1px -1px 0 #747474, -1px -1px 0 #747474;
+}
